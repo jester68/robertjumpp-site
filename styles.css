@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+}
