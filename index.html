@@ -379,10 +379,34 @@
       flex-wrap: wrap;
       gap: 8px;
     }
+
+    /* ─── Name header ─── */
+    .name-header {
+      padding: 28px 0 0;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .name-header::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
   </style>
 </head>
 <body>
 <div class="page">
+
+  <!-- Name identity -->
+  <div class="name-header">Robert (Rob) Jumpp</div>
 
   <!-- Hero -->
   <header class="hero">
